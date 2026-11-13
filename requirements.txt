@@ -1,0 +1,3 @@
+pymongo permite que Python converse com MongoDB.
+python-dotenv permite carregar informações do arquivo .env
+argon2-cffi permite gerar e verificar hashes das senhas
