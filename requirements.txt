@@ -1,3 +1,8 @@
-pymongo permite que Python converse com MongoDB.
-python-dotenv permite carregar informações do arquivo .env
-argon2-cffi permite gerar e verificar hashes das senhas
+# pymongo permite que Python converse com MongoDB.
+pymongo
+# python-dotenv permite carregar informações do arquivo .env
+python-dotenv
+# argon2-cffi permite gerar e verificar hashes das senhas
+argon2-cffi
+# pytest roda os testes (backend/tests)
+pytest
