@@ -1,5 +1,12 @@
-from src.database.database import users
-from src.services.autenticacao import Autenticador
+import sys
+from pathlib import Path
+
+# Permite executar este arquivo diretamente (python backend/scripts/cadastrar_users.py):
+# adiciona a pasta backend/ ao sys.path, onde fica o pacote "src".
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from src.database.database import users  # noqa: E402
+from src.services.autenticacao import Autenticador  # noqa: E402
 
 autenticador = Autenticador(users)
 
