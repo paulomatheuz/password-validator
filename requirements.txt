@@ -1,8 +1,6 @@
-# pymongo permite que Python converse com MongoDB.
-pymongo
-# python-dotenv permite carregar informações do arquivo .env
-python-dotenv
-# argon2-cffi permite gerar e verificar hashes das senhas
-argon2-cffi
-# pytest roda os testes (backend/tests)
-pytest
+fastapi  # Cria as rotas HTTP da API e recebe os dados em JSON.
+uvicorn  # Executa o servidor da API.
+pymongo  # Permite que Python converse com MongoDB.
+dnspython  # Resolve os endereços usados em conexões mongodb+srv.
+python-dotenv  # Carrega as configurações do arquivo .env.
+argon2-cffi  # Gera e verifica os hashes das senhas.
